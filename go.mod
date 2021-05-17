@@ -10,7 +10,7 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.4.2
 	github.com/google/uuid v1.1.2
-	github.com/hriday-ns/pulsar-client-go/oauth2 v0.0.0-20201120111947-b8bd55bc02bd
+	github.com/hriday-ns/pulsar-client-go/oauth2 v0.0.2
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/klauspost/compress v1.10.8
 	github.com/kr/pretty v0.2.0 // indirect
