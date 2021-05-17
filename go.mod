@@ -10,7 +10,6 @@ require (
 	github.com/gogo/protobuf v1.3.2
 	github.com/golang/protobuf v1.4.2
 	github.com/google/uuid v1.1.2
-	github.com/hriday-ns/pulsar-client-go/oauth2 v0.0.2
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/klauspost/compress v1.10.8
 	github.com/kr/pretty v0.2.0 // indirect
@@ -27,5 +26,3 @@ require (
 	go.uber.org/atomic v1.7.0
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 )
-
-replace github.com/hriday-ns/pulsar-client-go/oauth2 => ./oauth2
