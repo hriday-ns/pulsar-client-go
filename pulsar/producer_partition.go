@@ -500,6 +500,7 @@ func (p *partitionProducer) failTimeoutMessages() {
 			pi.Lock()
 			if nextWaiting := diff(pi.sentAt); nextWaiting > 0 {
 				// current and subsequent items not timeout yet, stop iterating
+                p.pendingQueue.Put(item)
 				t.Reset(nextWaiting)
 				pi.Unlock()
 				break
