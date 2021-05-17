@@ -21,8 +21,8 @@ import (
 	"crypto/tls"
 	"time"
 
-	"github.com/apache/pulsar-client-go/pulsar/internal/auth"
-	"github.com/apache/pulsar-client-go/pulsar/log"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/internal/auth"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/log"
 )
 
 func NewClient(options ClientOptions) (Client, error) {

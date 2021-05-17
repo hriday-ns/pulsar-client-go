@@ -23,13 +23,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/apache/pulsar-client-go/pulsar/internal/compression"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/internal/compression"
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/apache/pulsar-client-go/pulsar/internal"
-	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
-	"github.com/apache/pulsar-client-go/pulsar/log"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/internal"
+	pb "github.com/hriday-ns/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/log"
 
 	ua "go.uber.org/atomic"
 )
@@ -477,7 +477,7 @@ func (p *partitionProducer) failTimeoutMessages() {
 		// since pending queue is not thread safe because of there is no global iteration lock
 		// to control poll from pending queue, current goroutine and connection receipt handler
 		// iterate pending queue at the same time, this maybe a performance trade-off
-		// see https://github.com/apache/pulsar-client-go/pull/301
+		// see https://github.com/hriday-ns/pulsar-client-go/pull/301
 		curViewItems := p.pendingQueue.ReadableSlice()
 		viewSize := len(curViewItems)
 		if viewSize <= 0 {

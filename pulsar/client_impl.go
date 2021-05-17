@@ -26,10 +26,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/apache/pulsar-client-go/pulsar/internal"
-	"github.com/apache/pulsar-client-go/pulsar/internal/auth"
-	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
-	"github.com/apache/pulsar-client-go/pulsar/log"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/internal"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/internal/auth"
+	pb "github.com/hriday-ns/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/log"
 )
 
 const (

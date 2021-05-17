@@ -23,8 +23,8 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/apache/pulsar-client-go/pulsar/internal/compression"
-	pb "github.com/apache/pulsar-client-go/pulsar/internal/pulsar_proto"
+	"github.com/hriday-ns/pulsar-client-go/pulsar/internal/compression"
+	pb "github.com/hriday-ns/pulsar-client-go/pulsar/internal/pulsar_proto"
 )
 
 const (

@@ -28,7 +28,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/apache/pulsar-client-go/pulsar"
+	"github.com/hriday-ns/pulsar-client-go/pulsar"
 )
 
 // ProduceArgs define the parameters required by produce
